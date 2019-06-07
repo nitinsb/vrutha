@@ -11,7 +11,7 @@ else:
     exit(0)
 
 
-x = 2*d ** 0.5
+x = 2*d ** 0.5 # x <- diagonal of sqare  = [ ((root 0f 2 ) * side) ]   or { root(area * 2) }
 print("Area of circle c1 is ...",math.pi*((x/2)**2))
 
 print("Circumferance of circle c2 is ...",math.pi*2*x)
